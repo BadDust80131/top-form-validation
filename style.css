@@ -13,3 +13,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+input:valid {
+  border: 2px solid blue;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+.error {
+  width: 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 5px 5px 0px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
